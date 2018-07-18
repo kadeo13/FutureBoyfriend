@@ -1,0 +1,135 @@
+body {
+  margin: 0px;
+}
+
+#desktop {
+  width: 100%;
+  border: 1px solid green;
+  background: url("img/smallRainbow.png") repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mobile {
+  display: none;
+}
+
+#container {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.90);
+  height: 100%;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+}
+
+#insta {
+  width:100px;
+  height:100px;
+}
+
+#store {
+  margin-top: 30px;
+  margin: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.bfPost {
+  width: 200px;
+  height: 200px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial Black";
+}
+
+.text h1 {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.insta div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta div h2 {
+  margin: 0;
+}
+
+.item {
+  width: 99%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.left, .center, .right {
+  width: 33%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+}
+
+.center {
+  display: flex;
+  text-align: justify;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left h3 {
+  margin: 0;
+}
+
+@media (max-width: 320px) {
+  #mobile {display: flex;}
+  #desktop {display: none;}
+}
