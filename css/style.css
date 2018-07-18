@@ -2,7 +2,7 @@ body {
   margin: 0px;
 }
 
-#desktop {
+#main {
   width: 100%;
   border: 1px solid green;
   background: url("img/smallRainbow.png") repeat;
@@ -126,6 +126,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 h1, h2, h3, h4 {
   margin: 0;
 }
@@ -174,6 +175,4 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 320px) {
-  #mobile {display: flex;}
-  #desktop {display: none;}
 }
