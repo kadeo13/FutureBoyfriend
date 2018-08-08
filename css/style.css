@@ -38,9 +38,11 @@ body {
 
 #store {
   margin-top: 30px;
-  margin: 10px;
   width: 100%;
-  padding: 5px;
+}
+
+#follow {
+  text-align: center;
 }
 
 .bfPost {
@@ -125,6 +127,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hidden {
+  display: none;
 }
 
 h1, h2, h3, h4 {
