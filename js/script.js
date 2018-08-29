@@ -40,4 +40,8 @@ $(document).ready(function() {
   $("#d").click(function() {
     count(15, "promo2");
   })
+
+  $(document).bind("mobileinit", function() {
+    $.mobile.ajaxEnabled = false;
+  })
 })
